@@ -1,0 +1,19 @@
+{
+  "name": "playwright-ai-qa-agent",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "agent": "node src/agent.js",
+    "test:pw": "npx playwright test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.4.0",
+    "@playwright/mcp": "^0.0.85",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1"
+  }
+}
